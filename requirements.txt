@@ -1,0 +1,4 @@
+streamlit>=1.38.0
+pydantic>=2.8.0
+pytest>=8.0.0
+requests>=2.31.0

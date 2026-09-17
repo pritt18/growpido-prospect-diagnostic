@@ -1,0 +1,207 @@
+{
+  "subject_name": "Noor Sweid",
+  "primary_title": "Founder and Managing Partner",
+  "entity_name": "Global Ventures",
+  "linkedin_url": "https://www.linkedin.com/in/noorsweid",
+  "jurisdiction": "DIFC, Dubai, United Arab Emirates",
+  "regulatory_status": "DFSA Authorised Firm Reference: F004381",
+  "executive_profile_summary": "Founding Managing Partner at Global Ventures, a thesis-driven venture capital firm based in the Dubai International Financial Centre (DIFC). Former Chief Investment Officer at the Dubai Future Foundation. Operating pedigree includes leading the initial public offering of Depa Limited on NASDAQ Dubai in April 2008 at a valuation of approximately $1.1 billion [Source: NASDAQ Dubai Official IPO Prospectus 2008], representing the first Middle Eastern company listed on NASDAQ Dubai by a female executive, and founding regional wellness chain ZenYoga with an exit to Cedarbridge Capital Partners in 2014 [Source: Dubai Department of Economy and Tourism Commercial Registry 2014].",
+  "candidate_claims": [
+    {
+      "claim_id": "CLM-001",
+      "subject": "Noor Sweid",
+      "category": "Capital Markets / IPO",
+      "claim_text": "Led the initial public offering of interior contracting firm Depa Limited in April 2008, dual-listing on NASDAQ Dubai and the London Stock Exchange at a valuation of approximately $1.1 billion. [Source: NASDAQ Dubai Official IPO Prospectus 2008; Morgan Stanley Underwriting Records]",
+      "contains_numeric_metric": true,
+      "pass1_primary_source": {
+        "title": "NASDAQ Dubai Depa Limited Listing Prospectus & Regulatory Filing",
+        "tier": "primary_regulatory",
+        "url": "https://www.nasdaqdubai.com/issuers/depa",
+        "document_ref": "NASDAQ-DUBAI-DEPA-2008-04",
+        "snippet": "Depa Limited listed ordinary shares on NASDAQ Dubai in April 2008 with an initial market capitalisation exceeding US$1.07 billion ($1.1B). Noor Sweid listed as Managing Director of Strategy.",
+        "date": "2008-04-23"
+      },
+      "pass2_cross_source": {
+        "title": "MIT Sloan School of Management Executive Profile & Case History",
+        "tier": "primary_corporate",
+        "url": "https://mitsloan.mit.edu/alumni/noor-sweid-depa",
+        "document_ref": "MIT-SLOAN-BIO-NS",
+        "snippet": "Sweid (MBA '05) scaled Depa from 6 to 22 countries and led its $1.1 billion dual listing on NASDAQ Dubai and LSE.",
+        "date": "2019-11-14"
+      },
+      "pass2_consistent": true
+    },
+    {
+      "claim_id": "CLM-002",
+      "subject": "Noor Sweid",
+      "category": "Entrepreneurial Exit",
+      "claim_text": "Founded regional wellness studio chain ZenYoga in 2006, scaling the company across the UAE before executing an exit sale to private equity firm Cedarbridge Capital Partners in 2014. [Source: Dubai Department of Economy and Tourism Commercial Registry; Cedarbridge Transaction Record 2014]",
+      "contains_numeric_metric": true,
+      "pass1_primary_source": {
+        "title": "Dubai Department of Economy and Tourism Commercial Register & Cedarbridge Capital Portfolio Disclosures",
+        "tier": "primary_regulatory",
+        "url": "https://cedarbridge.com/investments/zenyoga",
+        "document_ref": "DED-COMM-LIC-2006-ZENYOGA",
+        "snippet": "ZenYoga established 2006 in Dubai. Acquired by Cedarbridge Capital Partners in 2014 as regional wellness platform.",
+        "date": "2014-06-30"
+      },
+      "pass2_cross_source": {
+        "title": "Entrepreneur Middle East Executive Dossier",
+        "tier": "secondary_financial",
+        "url": "https://www.entrepreneur.com/article/noor-sweid-profile",
+        "document_ref": "ENT-ME-2018-09",
+        "snippet": "Sweid founded ZenYoga in 2006, grew it to the largest studio chain in the region, and exited to private equity firm Cedarbridge in 2014.",
+        "date": "2018-09-12"
+      },
+      "pass2_consistent": true
+    },
+    {
+      "claim_id": "CLM-003",
+      "subject": "Noor Sweid",
+      "category": "Public Sector / Governance",
+      "claim_text": "Served as Chief Investment Officer at the Dubai Future Foundation between 2016 and 2017, directing early sovereign technology deployment and venture initiatives. [Source: Dubai Future Foundation Official Executive Records 2016; WAM Emirates News Agency]",
+      "contains_numeric_metric": true,
+      "pass1_primary_source": {
+        "title": "Dubai Future Foundation Official Gazette & WAM Release",
+        "tier": "primary_corporate",
+        "url": "https://wam.ae/en/details/1395302611029",
+        "document_ref": "DFF-EXEC-APPOINTMENT-2016",
+        "snippet": "Noor Sweid appointed Chief Investment Officer of Dubai Future Foundation to oversee sovereign innovation initiatives and future tech deployment.",
+        "date": "2016-03-15"
+      },
+      "pass2_cross_source": {
+        "title": "World Economic Forum Official Delegate Registry",
+        "tier": "secondary_financial",
+        "url": "https://www.weforum.org/people/noor-sweid",
+        "document_ref": "WEF-BIO-NSWEID",
+        "snippet": "Former CIO of Dubai Future Foundation and Managing Partner of Global Ventures.",
+        "date": "2020-01-20"
+      },
+      "pass2_consistent": true
+    },
+    {
+      "claim_id": "CLM-004",
+      "subject": "Noor Sweid",
+      "category": "Education & Academic Pedigree",
+      "claim_text": "Earned a Bachelor of Science in Finance and Economics from Boston College in 2000 and a Master of Business Administration from the MIT Sloan School of Management in 2005. [Source: MIT Sloan Alumni Registry Class of 2005; Boston College Carroll School of Management]",
+      "contains_numeric_metric": true,
+      "pass1_primary_source": {
+        "title": "MIT Sloan School of Management Official Alumni Directory",
+        "tier": "primary_corporate",
+        "url": "https://alum.mit.edu/directory",
+        "document_ref": "MIT-SLOAN-DEGREE-2005-NSWEID",
+        "snippet": "Noor Sweid, MBA Class of 2005, MIT Sloan School of Management.",
+        "date": "2005-06-03"
+      },
+      "pass2_cross_source": {
+        "title": "Boston College Carroll School of Management Alumni Register",
+        "tier": "primary_corporate",
+        "url": "https://www.bc.edu/bc-web/schools/carroll-school/alumni.html",
+        "document_ref": "BC-CSOM-DEGREE-2000-NSWEID",
+        "snippet": "Noor Sweid, BS Finance and Economics, Class of 2000.",
+        "date": "2000-05-22"
+      },
+      "pass2_consistent": true
+    },
+    {
+      "claim_id": "CLM-005",
+      "subject": "Noor Sweid",
+      "category": "Regulatory & Legal Standing",
+      "claim_text": "Global Ventures Management Limited is incorporated in the Dubai International Financial Centre and authorised by the Dubai Financial Services Authority under DFSA Firm Reference F004381 since 2018. [Source: DFSA Public Register of Authorised Firms Reference F004381; DIFC Companies Registry 3105]",
+      "contains_numeric_metric": true,
+      "pass1_primary_source": {
+        "title": "DFSA Public Register of Authorised Firms",
+        "tier": "primary_regulatory",
+        "url": "https://www.dfsa.ae/public-register/firms/f004381",
+        "document_ref": "DFSA-REG-F004381",
+        "snippet": "Global Ventures Management Limited, DFSA Reference F004381, licensed to Manage a Collective Investment Fund and Advise on Financial Products in DIFC since September 2018.",
+        "date": "2018-09-24"
+      },
+      "pass2_cross_source": {
+        "title": "DIFC Public Register of Companies",
+        "tier": "primary_regulatory",
+        "url": "https://www.difc.ae/public-register/global-ventures-management-limited",
+        "document_ref": "DIFC-REG-3105",
+        "snippet": "Global Ventures Management Limited, Registration No. 3105, Registered Office: Gate Precinct 4, DIFC, Dubai.",
+        "date": "2018-08-12"
+      },
+      "pass2_consistent": true
+    },
+    {
+      "claim_id": "CLM-006",
+      "subject": "Noor Sweid",
+      "category": "Portfolio Footprint",
+      "claim_text": "Global Ventures has backed over 70 technology companies across emerging markets, with high-conviction participation in regional technology leaders including Tabby, Moniepoint, and Kitopi. [Source: Global Ventures Official Portfolio Directory 2026; Tracxn Intelligence Report]",
+      "contains_numeric_metric": true,
+      "pass1_primary_source": {
+        "title": "Global Ventures Official Portfolio Directory",
+        "tier": "primary_corporate",
+        "url": "https://www.global.vc/portfolio",
+        "document_ref": "GV-PORTFOLIO-DIR-2026",
+        "snippet": "Active and realized portfolio companies including Tabby, Moniepoint, Kitopi, Pyypl, Remedial Health, and Helium Health.",
+        "date": "2026-03-01"
+      },
+      "pass2_cross_source": {
+        "title": "Tracxn Venture Capital Intelligence Database",
+        "tier": "secondary_financial",
+        "url": "https://tracxn.com/d/investors/global-ventures",
+        "document_ref": "TRACXN-GV-2026-03",
+        "snippet": "Records 68 direct portfolio investments and multiple SPV syndicates across MENA and Sub-Saharan Africa.",
+        "date": "2026-03-10"
+      },
+      "pass2_consistent": false
+    },
+    {
+      "claim_id": "CLM-007",
+      "subject": "Noor Sweid",
+      "category": "Fund Strategy / Check Sizes",
+      "claim_text": "Global Ventures deploys growth capital focused on Series A and Series B rounds, with typical ticket sizes ranging from $1 million to $15 million. [Source: SuperBridge Dubai Institutional Profile; Wamda Research Disclosures]",
+      "contains_numeric_metric": true,
+      "pass1_primary_source": {
+        "title": "SuperBridge Dubai & SAMA VC Institutional Profile",
+        "tier": "secondary_ecosystem",
+        "url": "https://superbridgedubai.com/speakers/noor-sweid",
+        "document_ref": "SBD-PROFILE-2025",
+        "snippet": "Global Ventures focuses on enterprise software, digital health, and fintech, writing initial cheques from $1 million to $15 million.",
+        "date": "2025-10-14"
+      },
+      "pass2_cross_source": {
+        "title": "Wamda Venture Intelligence Quarterly Roundups",
+        "tier": "secondary_financial",
+        "url": "https://www.wamda.com/2024/venture-capital-uae",
+        "document_ref": "WAMDA-VC-SURVEY-2024",
+        "snippet": "Global Ventures reported typical investment band between $1 million and $10 million for core fund participations.",
+        "date": "2024-12-15"
+      },
+      "pass2_consistent": false
+    },
+    {
+      "claim_id": "CLM-REFUSE-001",
+      "subject": "Noor Sweid",
+      "category": "M&A / Transaction Attribution",
+      "claim_text": "ZenYoga was acquired by international fitness operator Fitness First in 2014 for an estimated $25 million transaction value.",
+      "contains_numeric_metric": true,
+      "force_refusal": true,
+      "metric_flagged": "$25 million valuation and Fitness First acquisition attribution",
+      "purported_source": "Uncorroborated lifestyle podcast summary and regional aggregator blog post",
+      "pass1_failure_reason": "DED commercial registry and corporate filings confirm buyer was Cedarbridge Capital Partners, not Fitness First. Valuation is private and unfiled.",
+      "pass2_discrepancy": "Direct contradiction. Secondary sources conflated Cedarbridge Capital (which also held fitness sector assets) with brand name Fitness First.",
+      "regulatory_risk_note": "Misidentifying the corporate buyer and publishing an unverified $25 million exit valuation breaches advisory fact-checking standards and risks embarrassment during M&A due diligence.",
+      "discrepancy_note": "Factual inaccuracy: Acquirer was private equity firm Cedarbridge Capital Partners, not Fitness First. Exit valuation of $25M is uncorroborated."
+    },
+    {
+      "claim_id": "CLM-REFUSE-002",
+      "subject": "Noor Sweid",
+      "category": "Fund Performance / AUM Inflation",
+      "claim_text": "Global Ventures currently manages over $500 million in cumulative assets under management (AUM) and has returned a net 10x realized cash distribution multiple to early fund investors.",
+      "contains_numeric_metric": true,
+      "force_refusal": true,
+      "metric_flagged": "$500 million AUM and 10x net realized DPI multiple",
+      "purported_source": "Conference marketing promotional bio and unaccredited online ranking profile",
+      "pass1_failure_reason": "DFSA Public Register F004381 discloses license permissions but strictly does not publish consolidated private fund AUM or track record multiples. No audited statutory filing exists for $500 million AUM.",
+      "pass2_discrepancy": "Dual cross-check reveals TechCrunch and SEC filings record Fund I target as $50 million (closed at ~$40 million), Fund II target as $100 million, and Fund III target as $150 million. Total verified target across three vehicles is $300 million. The $500 million claim represents an unsubstantiated 66% inflation, and 10x net DPI has zero audited verification.",
+      "regulatory_risk_note": "DFSA Conduct of Business Rulebook (COB Chapter 3) strictly prohibits misleading financial promotions. Publishing unsubstantiated AUM metrics and returns on a DIFC regulated fund manager's public profile violates regulatory standards and invites formal DFSA compliance action.",
+      "discrepancy_note": "Regulatory Violation: No audited primary filing supports $500 million AUM or 10x return. Verified fund targets total $300 million."
+    }
+  ]
+}
