@@ -120,15 +120,15 @@ with st.sidebar:
     
     if "Noor Sweid" in target_option:
         subject_name = "Noor Sweid"
-        linkedin_url = "https://www.linkedin.com/in/noorsweid"
+        linkedin_url = "https://www.linkedin.com/in/noor-sweid"
         st.info("📌 **DIFC Target**: Founding Managing Partner at Global Ventures. DFSA Reference: F004381.")
     elif "Hosam Arab" in target_option:
         subject_name = "Hosam Arab"
-        linkedin_url = "https://www.linkedin.com/in/hosam-arab"
+        linkedin_url = "https://www.linkedin.com/in/hosam"
         st.info("📌 **Fintech Unicorn Target**: Co-founder & CEO of Tabby ($1.5B Series D Valuation).")
     else:
         subject_name = st.text_input("Executive Full Name", value="Mudassir Sheikha")
-        linkedin_url = st.text_input("LinkedIn Profile URL", value="https://www.linkedin.com/in/msheikha")
+        linkedin_url = st.text_input("LinkedIn Profile URL", value="https://www.linkedin.com/in/mudassirsheikha")
         st.warning("⚠️ **Custom Mode**: Evaluates against public domain with mandatory statutory verification gate.")
 
     st.markdown("---")

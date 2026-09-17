@@ -128,7 +128,7 @@ def run_pipeline(subject_name: str, linkedin_url: str, output_dir: str = "output
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Growpido Prospect to Diagnostic Engine")
     parser.add_argument("--subject", default="Noor Sweid", help="Executive Name")
-    parser.add_argument("--url", default="https://www.linkedin.com/in/noorsweid", help="LinkedIn Profile URL")
+    parser.add_argument("--url", default="https://www.linkedin.com/in/noor-sweid", help="LinkedIn Profile URL")
     parser.add_argument("--output", default="output", help="Output directory")
     args = parser.parse_args()
 

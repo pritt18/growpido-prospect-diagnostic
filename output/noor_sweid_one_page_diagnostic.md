@@ -6,7 +6,7 @@ Title: Founder and Managing Partner
 Entity: Global Ventures
 Jurisdiction: DIFC, Dubai, United Arab Emirates
 Regulatory Standing: DFSA Authorised Firm Reference: F004381
-LinkedIn Reference: https://www.linkedin.com/in/noorsweid
+LinkedIn Reference: https://www.linkedin.com/in/noor-sweid
 Verification Date: 2026-09-17
 Human Gate Status: APPROVED BY HUMAN GATE
 Reviewed By: Pritam Gangurde
