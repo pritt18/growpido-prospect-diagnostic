@@ -111,16 +111,25 @@ with st.sidebar:
     st.markdown("### 🎯 Prospect Selector")
     target_option = st.selectbox(
         "Select UAE Executive Prospect",
-        ["Noor Sweid (Global Ventures / DIFC)", "Custom LinkedIn URL"]
+        [
+            "Noor Sweid (Global Ventures / DIFC)",
+            "Hosam Arab (Tabby / DIFC Fintech Unicorn)",
+            "Custom LinkedIn URL"
+        ]
     )
     
     if "Noor Sweid" in target_option:
         subject_name = "Noor Sweid"
         linkedin_url = "https://www.linkedin.com/in/noorsweid"
         st.info("📌 **DIFC Target**: Founding Managing Partner at Global Ventures. DFSA Reference: F004381.")
+    elif "Hosam Arab" in target_option:
+        subject_name = "Hosam Arab"
+        linkedin_url = "https://www.linkedin.com/in/hosam-arab"
+        st.info("📌 **Fintech Unicorn Target**: Co-founder & CEO of Tabby ($1.5B Series D Valuation).")
     else:
-        subject_name = st.text_input("Executive Full Name", value="UAE Founder")
-        linkedin_url = st.text_input("LinkedIn Profile URL", value="https://www.linkedin.com/in/founder")
+        subject_name = st.text_input("Executive Full Name", value="Mudassir Sheikha")
+        linkedin_url = st.text_input("LinkedIn Profile URL", value="https://www.linkedin.com/in/msheikha")
+        st.warning("⚠️ **Custom Mode**: Evaluates against public domain with mandatory statutory verification gate.")
 
     st.markdown("---")
     st.markdown("### 🏛️ House Rules Linter Status")
@@ -134,10 +143,6 @@ with st.sidebar:
     reviewer_name = st.text_input("Lead Advisor Sign-off", value="Pritam Gangurde")
     human_approved = st.checkbox("Sign-off for Client Release", value=True)
 
-# Session State Initialization
-if "pipeline_run" not in st.session_state:
-    st.session_state.pipeline_run = False
-
 # Ingest and Process
 harvester = ResearchHarvester()
 dossier = harvester.harvest_subject(linkedin_url=linkedin_url, subject_hint=subject_name)
@@ -146,7 +151,7 @@ results = engine.process_dossier(dossier.get("candidate_claims", []))
 verified_facts = results["verified"]
 partially_verified = results["partially_verified"]
 refused_audit = results["refused_audit"]
-gaps = NarrativeGapAnalyzer.get_noor_sweid_narrative_gaps()
+gaps = NarrativeGapAnalyzer.get_gaps_for_subject(dossier.get("subject_name", subject_name))
 
 # Layout Tabs
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
@@ -175,7 +180,7 @@ with tab1:
     - **Executive:** {dossier.get('subject_name')}
     - **Entity:** {dossier.get('entity_name')} ({dossier.get('jurisdiction')})
     - **Regulatory Status:** `{dossier.get('regulatory_status')}`
-    - **Harvest Mode:** `{dossier.get('harvest_mode')}` (Audited Primary Statutory Records)
+    - **Harvest Mode:** `{dossier.get('harvest_mode')}`
     """)
     st.markdown(f"**Profile Brief:** {dossier.get('executive_profile_summary')}")
 
@@ -241,7 +246,7 @@ with tab3:
 # TAB 4: NARRATIVE GAPS
 with tab4:
     st.markdown("### The Three Biggest Public Narrative Gaps")
-    st.write("Strategic public presence teardown benchmarked against tier-1 global and DIFC peers.")
+    st.write(f"Strategic public presence teardown for **{dossier.get('subject_name')}** benchmarked against tier-1 global and DIFC peers.")
     
     for g in gaps:
         with st.container():
@@ -299,21 +304,21 @@ with tab5:
         st.download_button(
             label="📥 Download Diagnostic (Markdown)",
             data=final_md,
-            file_name=f"noor_sweid_executive_diagnostic.md",
+            file_name=f"{dossier.get('subject_name').lower().replace(' ', '_')}_diagnostic.md",
             mime="text/markdown"
         )
     with c_btn2:
         st.download_button(
             label="🌐 Download Print-Ready HTML",
             data=final_html,
-            file_name=f"noor_sweid_executive_diagnostic.html",
+            file_name=f"{dossier.get('subject_name').lower().replace(' ', '_')}_diagnostic.html",
             mime="text/html"
         )
     with c_btn3:
         st.download_button(
             label="🚫 Download Refused Claims Audit",
             data=refused_md,
-            file_name=f"refused_claims_audit.md",
+            file_name="refused_claims_audit.md",
             mime="text/markdown"
         )
 

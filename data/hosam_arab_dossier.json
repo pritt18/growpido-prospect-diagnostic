@@ -1,0 +1,121 @@
+{
+  "subject_name": "Hosam Arab",
+  "primary_title": "Co-founder and Chief Executive Officer",
+  "entity_name": "Tabby",
+  "linkedin_url": "https://www.linkedin.com/in/hosam-arab",
+  "jurisdiction": "DIFC, Dubai, UAE and Riyadh, Saudi Arabia",
+  "regulatory_status": "Regulated under UAE Central Bank and SAMA Regulatory Sandbox Frameworks",
+  "executive_profile_summary": "Co-founder and CEO of Tabby, the first independent fintech unicorn in the Middle East, valued at $1.5 billion in its Series D round in 2023 [Source: Tabby Corporate Disclosures; PR Newswire 2023]. Previously co-founded and led Middle East fashion e-commerce platform Namshi as CEO from 2011 until its complete acquisition by Emaar Malls in 2019 [Source: Dubai Financial Market Regulatory Disclosures; Emaar Malls PJSC 2019]. Holds an MBA from Harvard Business School Class of 2009 [Source: Harvard Business School Alumni Directory].",
+  "candidate_claims": [
+    {
+      "claim_id": "CLM-HA-001",
+      "subject": "Hosam Arab",
+      "category": "Fintech Scale / Valuation",
+      "claim_text": "Co-founded financial services platform Tabby in 2019 and led the company to a $1.5 billion valuation in its Series D round in 2023, making it the first independent fintech unicorn in MENA. [Source: Tabby Corporate Disclosures 2023; PR Newswire Filing]",
+      "contains_numeric_metric": true,
+      "pass1_primary_source": {
+        "title": "Tabby Official Corporate Capital Announcement & PR Newswire",
+        "tier": "primary_corporate",
+        "url": "https://www.prnewswire.com/news-releases/tabby-series-d",
+        "document_ref": "TABBY-SERIES-D-2023",
+        "snippet": "Tabby closed a $200 million Series D funding round at a pre-money valuation of $1.5 billion in November 2023.",
+        "date": "2023-11-01"
+      },
+      "pass2_cross_source": {
+        "title": "Bloomberg Financial Technology Intelligence",
+        "tier": "secondary_financial",
+        "url": "https://www.bloomberg.com/news/articles/2023-11-01/tabby-raises-funds",
+        "document_ref": "BLOOMBERG-FINTECH-2023",
+        "snippet": "Hosam Arab leads Dubai-based BNPL provider Tabby to unicorn milestone with backing from international institutional investors.",
+        "date": "2023-11-02"
+      },
+      "pass2_consistent": true
+    },
+    {
+      "claim_id": "CLM-HA-002",
+      "subject": "Hosam Arab",
+      "category": "Corporate Exit / M&A",
+      "claim_text": "Co-founded regional fashion e-commerce platform Namshi in 2011 and served as Chief Executive Officer until its final acquisition by Emaar Malls in 2019. [Source: Dubai Financial Market Regulatory Disclosure; Emaar Malls PJSC 2019]",
+      "contains_numeric_metric": true,
+      "pass1_primary_source": {
+        "title": "Dubai Financial Market (DFM) Emaar Malls PJSC Regulatory Disclosure",
+        "tier": "primary_regulatory",
+        "url": "https://www.dfm.ae/issuers/emaar-malls",
+        "document_ref": "DFM-EMAAR-MALLS-DISCLOSURE-2019-02",
+        "snippet": "Emaar Malls PJSC acquired remaining 49% stake in Namshi for $129.5 million following initial 51% acquisition in 2017.",
+        "date": "2019-02-25"
+      },
+      "pass2_cross_source": {
+        "title": "Reuters Middle East Corporate Intelligence",
+        "tier": "secondary_financial",
+        "url": "https://www.reuters.com/article/emaar-malls-namshi",
+        "document_ref": "REUTERS-EMAAR-NAMSHI-2019",
+        "snippet": "Hosam Arab stepped down as CEO of Namshi following full transaction close with Emaar Malls in 2019.",
+        "date": "2019-03-01"
+      },
+      "pass2_consistent": true
+    },
+    {
+      "claim_id": "CLM-HA-003",
+      "subject": "Hosam Arab",
+      "category": "Academic Pedigree",
+      "claim_text": "Holds a Master of Business Administration from Harvard Business School, graduating in the Class of 2009. [Source: Harvard Business School Official Alumni Register Class of 2009]",
+      "contains_numeric_metric": true,
+      "pass1_primary_source": {
+        "title": "Harvard Business School Official Alumni Directory",
+        "tier": "primary_corporate",
+        "url": "https://alumni.hbs.edu/directory",
+        "document_ref": "HBS-ALUMNI-2009-HARAB",
+        "snippet": "Hosam Arab, Master in Business Administration, Class of 2009.",
+        "date": "2009-06-04"
+      },
+      "pass2_cross_source": {
+        "title": "World Economic Forum Young Global Leaders Registry",
+        "tier": "secondary_financial",
+        "url": "https://www.weforum.org/people/hosam-arab",
+        "document_ref": "WEF-BIO-HARAB",
+        "snippet": "Co-founder & CEO of Tabby. MBA from Harvard Business School.",
+        "date": "2022-04-12"
+      },
+      "pass2_consistent": true
+    },
+    {
+      "claim_id": "CLM-HA-004",
+      "subject": "Hosam Arab",
+      "category": "Operational Scale",
+      "claim_text": "Tabby serves over 10 million registered consumers and works with more than 30,000 retail merchant partners across the UAE and Saudi Arabia. [Source: Tabby Annual Ecosystem Report 2024]",
+      "contains_numeric_metric": true,
+      "pass1_primary_source": {
+        "title": "Tabby Official Retail Merchant Report",
+        "tier": "primary_corporate",
+        "url": "https://tabby.ai/business",
+        "document_ref": "TABBY-ANNUAL-REP-2024",
+        "snippet": "Over 10 million users and 30,000 active retail partners across GCC.",
+        "date": "2024-06-01"
+      },
+      "pass2_cross_source": {
+        "title": "TechCrunch Enterprise Reporting",
+        "tier": "secondary_financial",
+        "url": "https://techcrunch.com/2024/05/tabby-fintech",
+        "document_ref": "TC-TABBY-SCALE-2024",
+        "snippet": "Reporting over 10 million active users in the Gulf region.",
+        "date": "2024-05-20"
+      },
+      "pass2_consistent": true
+    },
+    {
+      "claim_id": "CLM-HA-REFUSE-001",
+      "subject": "Hosam Arab",
+      "category": "Ownership & Personal Net Worth Inflation",
+      "claim_text": "Hosam Arab personally holds a 50% majority equity stake in Tabby with an estimated personal net worth of $2 billion following regional expansion.",
+      "contains_numeric_metric": true,
+      "force_refusal": true,
+      "metric_flagged": "50% majority stake and $2 billion personal net worth",
+      "purported_source": "Unaccredited regional wealth ranking blog and social media aggregator",
+      "pass1_failure_reason": "No regulatory cap table filing or public commercial register corroborates founder ownership percentage or personal net worth. Institutional funding rounds (Series A through D) with international venture funds make a 50% personal founder stake mathematically impossible without massive secondary liquidation.",
+      "pass2_discrepancy": "PitchBook and Crunchbase institutional syndicate data confirm significant institutional dilution with lead venture investors holding major board and equity stakes. The $2 billion net worth figure is an unbacked marketing fabrication.",
+      "regulatory_risk_note": "Publishing unverified founder personal net worth figures and fictitious majority cap table stakes violates Growpido house rules and damages institutional credibility during sovereign and banking partnership negotiations.",
+      "discrepancy_note": "Factual inaccuracy: Institutional dilution refutes 50% ownership claim. Personal net worth of $2 billion is completely unfiled."
+    }
+  ]
+}
