@@ -20,7 +20,7 @@ from engine.models import ExecutiveDiagnostic
 
 def run_pipeline(subject_name: str, linkedin_url: str, output_dir: str = "output", reviewer_name: str = "Pritam Gangurde"):
     print("=" * 70)
-    print("GROWPIDO PROSPECT TO DIAGNOSTIC ENGINE - TRACK B")
+    print("GROWPIDO PROSPECT TO DIAGNOSTIC ENGINE")
     print("Dubai International Financial Centre (DIFC) Practice")
     print("=" * 70)
     print(f"Target Subject: {subject_name}")

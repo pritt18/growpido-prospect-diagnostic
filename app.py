@@ -1,7 +1,7 @@
 """
 Growpido Executive Prospect to Diagnostic Terminal
 Interactive Streamlit Application with Human Review Gate & Fact Integrity Engine
-DIFC Practice - Track B Build Task
+DIFC Practice & Regulatory Intelligence Platform
 """
 
 import streamlit as st
@@ -98,7 +98,7 @@ st.markdown("""
         Growpido Narrative & Reputation Advisory | DIFC Practice
     </div>
     <h1 style="margin: 0; font-size: 26px; font-weight: 800; color: white;">
-        Prospect to Diagnostic Engine (Track B)
+        Prospect to Diagnostic Engine
     </h1>
     <div style="font-size: 13px; color: #94a3b8; margin-top: 6px;">
         Dual-Pass Fact Integrity, DFSA Regulatory Gate & Strategic Public Presence Diagnostic
